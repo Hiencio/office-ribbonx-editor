@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About.Author" xml:space="preserve">
+    <value>Tác giả:</value>
+  </data>
+  <data name="About.Close" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="About.CopyVersion" xml:space="preserve">
+    <value>Sao chép thông tin phiên bản</value>
+  </data>
+  <data name="About.License" xml:space="preserve">
+    <value>Giấy phép:</value>
+  </data>
+  <data name="About.OperatingSystem" xml:space="preserve">
+    <value>Hệ điều hành:</value>
+  </data>
+  <data name="About.Paragraph1" xml:space="preserve">
+    <value>Office RibbonX Editor là một công cụ độc lập, miễn phí, mã nguồn mở để chỉnh sửa phần Giao diện người dùng tùy chỉnh của định dạng tệp tài liệu mở Office. Nó chứa cả lược đồ giao diện người dùng tùy chỉnh của Office 2007 và Office 2010.</value>
+  </data>
+  <data name="About.Paragraph2" xml:space="preserve">
+    <value>Lược đồ giao diện người dùng tùy chỉnh của Office 2010 là lược đồ mới nhất và nó vẫn đang được sử dụng trong các phiên bản Office mới nhất bao gồm Office 2013, Office 2016, Office 2019 và Office 365.</value>
+  </data>
+  <data name="About.ProjectPage" xml:space="preserve">
+    <value>Trang dự án:</value>
+  </data>
+  <data name="About.Runtime" xml:space="preserve">
+    <value>Thời gian chạy:</value>
+  </data>
+  <data name="About.SubmitIssue" xml:space="preserve">
+    <value>Gửi một vấn đề</value>
+  </data>
+  <data name="About.Title" xml:space="preserve">
+    <value>Giới thiệu về Office RibbonX Editor</value>
+  </data>
+  <data name="About.Version" xml:space="preserve">
+    <value>Phiên bản:</value>
+  </data>
+  <data name="Callbacks.Title" xml:space="preserve">
+    <value>Quá trình xem lại</value>
+  </data>
+  <data name="ContextMenu.TreeView.ChangeId" xml:space="preserve">
+    <value>Thay đổi ID</value>
+  </data>
+  <data name="ContextMenu.TreeView.Close" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="ContextMenu.TreeView.InsertIcons" xml:space="preserve">
+    <value>Chèn Biểu tượng...</value>
+  </data>
+  <data name="ContextMenu.TreeView.InsertOffice2007" xml:space="preserve">
+    <value>Chèn tùy chỉnh Office 2007 UI Part</value>
+  </data>
+  <data name="ContextMenu.TreeView.InsertOffice2010" xml:space="preserve">
+    <value>Chèn tùy chỉnh Office 2010+ UI Part</value>
+  </data>
+  <data name="ContextMenu.TreeView.Open" xml:space="preserve">
+    <value>Mở</value>
+  </data>
+  <data name="ContextMenu.TreeView.Remove" xml:space="preserve">
+    <value>Gỡ bỏ</value>
+  </data>
+  <data name="ContextMenu.TreeView.Save" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="ContextMenu.TreeView.SaveAs" xml:space="preserve">
+    <value>Lưu dưới dạng...</value>
+  </data>
+  <data name="Editor.ZoomFactor" xml:space="preserve">
+    <value>Hệ số thu phóng:</value>
+  </data>
+  <data name="Exception.CloseDialog" xml:space="preserve">
+    <value>Đóng hộp thoại này</value>
+  </data>
+  <data name="Exception.Disclaimer" xml:space="preserve">
+    <value>Nếu bạn tiếp tục sử dụng công cụ sau ngoại lệ này, nó có thể bắt đầu trục trặc.</value>
+  </data>
+  <data name="Exception.ShutdownApp" xml:space="preserve">
+    <value>Tắt ứng dụng</value>
+  </data>
+  <data name="Exception.SubmitBug" xml:space="preserve">
+    <value>Gửi báo cáo lỗi</value>
+  </data>
+  <data name="Exception.Title" xml:space="preserve">
+    <value>Đã xảy ra ngoại lệ chưa được xử lý</value>
+  </data>
+  <data name="Filter.All" xml:space="preserve">
+    <value>Tất cả tệp (*.*)|*.*</value>
+  </data>
+  <data name="Filter.AllOfficeDocuments" xml:space="preserve">
+    <value>Tất cả tài liệu văn phòng|*.???x;*.???m</value>
+  </data>
+  <data name="Filter.ExcelDocuments" xml:space="preserve">
+    <value>Microsoft Excel Workbooks|*.xlsx;*.xlsm;*.xlam;*.xltx;*.xltm</value>
+  </data>
+  <data name="Filter.Icons" xml:space="preserve">
+    <value>Định dạng hỗ trợ|*.ico;*.bmp;*.png;*.jpg;*.tif</value>
+  </data>
+  <data name="Filter.PowerPointDocuments" xml:space="preserve">
+    <value>Microsoft PowerPoint Presentations|*.pp?x;*.pp?m;*.potx;*.potm;*.thmx</value>
+  </data>
+  <data name="Filter.VisioDocuments" xml:space="preserve">
+    <value>Microsoft Visio Drawings|*.vsdx;*.vsdm;*.vstx;*.vstm;*.vssx;*.vssm;</value>
+  </data>
+  <data name="Filter.SaveAs0" xml:space="preserve">
+    <value>Excel Workbook|*.xlsx</value>
+  </data>
+  <data name="Filter.SaveAs1" xml:space="preserve">
+    <value>Excel Macro-Enabled Workbook|*.xlsm</value>
+  </data>
+  <data name="Filter.SaveAs10" xml:space="preserve">
+    <value>PowerPoint Show|*.ppsx</value>
+  </data>
+  <data name="Filter.SaveAs11" xml:space="preserve">
+    <value>PowerPoint Macro-Enabled Show|*.ppsm</value>
+  </data>
+  <data name="Filter.SaveAs12" xml:space="preserve">
+    <value>PowerPoint Add-in|*.ppam</value>
+  </data>
+  <data name="Filter.SaveAs13" xml:space="preserve">
+    <value>Word Document|*.docx</value>
+  </data>
+  <data name="Filter.SaveAs14" xml:space="preserve">
+    <value>Word Macro-Enabled Document|*.docm</value>
+  </data>
+  <data name="Filter.SaveAs15" xml:space="preserve">
+    <value>Word Template|*.dotx</value>
+  </data>
+  <data name="Filter.SaveAs16" xml:space="preserve">
+    <value>Word Macro-Enabled Template|*.dotm</value>
+  </data>
+  <data name="Filter.SaveAs17" xml:space="preserve">
+    <value>Visio Diagram|*.vsdx</value>
+  </data>
+  <data name="Filter.SaveAs18" xml:space="preserve">
+    <value>Visio Macro-Enabled Diagram|*.vsdm</value>
+  </data>
+  <data name="Filter.SaveAs19" xml:space="preserve">
+    <value>Visio Template|*.vstx</value>
+  </data>
+  <data name="Filter.SaveAs20" xml:space="preserve">
+    <value>Visio Macro-Enabled Template|*.vstm</value>
+  </data>
+  <data name="Filter.SaveAs2" xml:space="preserve">
+    <value>Excel Binary Workbook|*.xlsb</value>
+  </data>
+  <data name="Filter.SaveAs3" xml:space="preserve">
+    <value>Excel Template|*.xltx</value>
+  </data>
+  <data name="Filter.SaveAs4" xml:space="preserve">
+    <value>Excel Macro-Enabled Template|*.xltm</value>
+  </data>
+  <data name="Filter.SaveAs5" xml:space="preserve">
+    <value>Excel Add-in|*.xlam</value>
+  </data>
+  <data name="Filter.SaveAs6" xml:space="preserve">
+    <value>PowerPoint Presentation|*.pptx</value>
+  </data>
+  <data name="Filter.SaveAs7" xml:space="preserve">
+    <value>PowerPoint Macro-Enabled Presentation|*.pptm</value>
+  </data>
+  <data name="Filter.SaveAs8" xml:space="preserve">
+    <value>PowerPoint Template|*.potx</value>
+  </data>
+  <data name="Filter.SaveAs9" xml:space="preserve">
+    <value>PowerPoint Macro-Enabled Template|*.potm</value>
+  </data>
+  <data name="Filter.WordDocuments" xml:space="preserve">
+    <value>Microsoft Word Documents|*.do?x;*.do?m</value>
+  </data>
+  <data name="FindReplace.Find" xml:space="preserve">
+    <value>Tìm</value>
+  </data>
+  <data name="FindReplace.FindAll" xml:space="preserve">
+    <value>Tìm tất cả</value>
+  </data>
+  <data name="FindReplace.FindAll.Clear" xml:space="preserve">
+    <value>Dọn dẹp</value>
+  </data>
+  <data name="FindReplace.FindAll.HighlightMatches" xml:space="preserve">
+    <value>Đánh dấu tô màu</value>
+  </data>
+  <data name="FindReplace.FindAll.MarkLine" xml:space="preserve">
+    <value>Dòng đánh dấu</value>
+  </data>
+  <data name="FindReplace.FindAll.Ok" xml:space="preserve">
+    <value>Tìm tất cả</value>
+  </data>
+  <data name="FindReplace.FindNext" xml:space="preserve">
+    <value>Tìm tiếp theo</value>
+  </data>
+  <data name="FindReplace.FindPrevious" xml:space="preserve">
+    <value>Tìm trước đó</value>
+  </data>
+  <data name="FindReplace.FindTab" xml:space="preserve">
+    <value>Tìm</value>
+  </data>
+  <data name="FindReplace.Options" xml:space="preserve">
+    <value>Tùy chọn</value>
+  </data>
+  <data name="FindReplace.Options.Compiled" xml:space="preserve">
+    <value>_Hoàn thành</value>
+  </data>
+  <data name="FindReplace.Options.ECMAScript" xml:space="preserve">
+    <value>ECMAScript</value>
+  </data>
+  <data name="FindReplace.Options.ExplicitCapture" xml:space="preserve">
+    <value>E_xplicit Capture</value>
+  </data>
+  <data name="FindReplace.Options.IgnoreCase" xml:space="preserve">
+    <value>I_gnore Case</value>
+  </data>
+  <data name="FindReplace.Options.IgnoreWhitespace" xml:space="preserve">
+    <value>Ignore Pattern Whitespace</value>
+  </data>
+  <data name="FindReplace.Options.Invariant" xml:space="preserve">
+    <value>C_ulture Invariant</value>
+  </data>
+  <data name="FindReplace.Options.Multiline" xml:space="preserve">
+    <value>Nhiều dòng</value>
+  </data>
+  <data name="FindReplace.Options.RightToLeft" xml:space="preserve">
+    <value>Phải sang trái</value>
+  </data>
+  <data name="FindReplace.Options.Singleline" xml:space="preserve">
+    <value>Một dòng</value>
+  </data>
+  <data name="FindReplace.Replace" xml:space="preserve">
+    <value>Thay thế</value>
+  </data>
+  <data name="FindReplace.ReplaceAll" xml:space="preserve">
+    <value>Thay thế tất cả</value>
+  </data>
+  <data name="FindReplace.ReplaceNext" xml:space="preserve">
+    <value>Thay thế tiếp theo</value>
+  </data>
+  <data name="FindReplace.ReplacePrevious" xml:space="preserve">
+    <value>Thay thế trước đó</value>
+  </data>
+  <data name="FindReplace.ReplaceTab" xml:space="preserve">
+    <value>Thay thế</value>
+  </data>
+  <data name="FindReplace.SearchType" xml:space="preserve">
+    <value>Kiểu tìm kiếm</value>
+  </data>
+  <data name="FindReplace.SearchType.Extended" xml:space="preserve">
+    <value>Mở rộng (\n, \r, \t, \0)</value>
+  </data>
+  <data name="FindReplace.SearchType.Regular" xml:space="preserve">
+    <value>Biểu thức chính quy</value>
+  </data>
+  <data name="FindReplace.SearchType.Standard" xml:space="preserve">
+    <value>Tiêu chuẩn</value>
+  </data>
+  <data name="FindReplace.Selection" xml:space="preserve">
+    <value>Tìm kiếm Lựa chọn</value>
+  </data>
+  <data name="FindReplace.Status.NoMatch" xml:space="preserve">
+    <value>Không tìm thấy kết quả phù hợp</value>
+  </data>
+  <data name="FindReplace.Status.RegExError" xml:space="preserve">
+    <value>Lỗi trong biểu thức chính quy</value>
+  </data>
+  <data name="FindReplace.Status.TotalFound" xml:space="preserve">
+    <value>Tổng số tìm thấy</value>
+  </data>
+  <data name="FindReplace.Status.TotalReplaced" xml:space="preserve">
+    <value>Tổng số thay thế</value>
+  </data>
+  <data name="FindReplace.Status.Wrap" xml:space="preserve">
+    <value>Tìm kiếm khớp với phần đầu của tài liệu / phần lựa chọn</value>
+  </data>
+  <data name="FindReplace.Title" xml:space="preserve">
+    <value>Tìm và Thay thế</value>
+  </data>
+  <data name="FindReplace.Wrap" xml:space="preserve">
+    <value>Ngắt dòng</value>
+  </data>
+  <data name="GoTo.Cancel" xml:space="preserve">
+    <value>Bỏ qua</value>
+  </data>
+  <data name="GoTo.CurrentLine" xml:space="preserve">
+    <value>Dòng hiện tại</value>
+  </data>
+  <data name="GoTo.DesiredLine" xml:space="preserve">
+    <value>Tới dòng</value>
+  </data>
+  <data name="GoTo.MaxLine" xml:space="preserve">
+    <value>Số dòng tối đa</value>
+  </data>
+  <data name="GoTo.Ok" xml:space="preserve">
+    <value>Đồng ý</value>
+  </data>
+  <data name="GoTo.Title" xml:space="preserve">
+    <value>Tới dòng</value>
+  </data>
+  <data name="MainWindow.Title" xml:space="preserve">
+    <value>Chỉnh sửa Office RibbonX</value>
+  </data>
+  <data name="Menu.Edit" xml:space="preserve">
+    <value>Chỉnh sửa</value>
+  </data>
+  <data name="Menu.Edit.Copy" xml:space="preserve">
+    <value>Sao chép</value>
+  </data>
+  <data name="Menu.Edit.Cut" xml:space="preserve">
+    <value>Cắt</value>
+  </data>
+  <data name="Menu.Edit.DuplicateLine" xml:space="preserve">
+    <value>Dòng trùng lặp</value>
+  </data>
+  <data name="Menu.Edit.Find" xml:space="preserve">
+    <value>Tìm kiếm...</value>
+  </data>
+  <data name="Menu.Edit.FindNext" xml:space="preserve">
+    <value>Tiếp tiếp</value>
+  </data>
+  <data name="Menu.Edit.FindPrevious" xml:space="preserve">
+    <value>Tìm trước đó</value>
+  </data>
+  <data name="Menu.Edit.GoTo" xml:space="preserve">
+    <value>Tới dòng...</value>
+  </data>
+  <data name="Menu.Edit.Incremental" xml:space="preserve">
+    <value>Tìm kiếm gia tăng...</value>
+  </data>
+  <data name="Menu.Edit.Paste" xml:space="preserve">
+    <value>Dán</value>
+  </data>
+  <data name="Menu.Edit.Redo" xml:space="preserve">
+    <value>Làm lại</value>
+  </data>
+  <data name="Menu.Edit.Replace" xml:space="preserve">
+    <value>Thay thế...</value>
+  </data>
+  <data name="Menu.Edit.SelectAll" xml:space="preserve">
+    <value>Chọn tất cả</value>
+  </data>
+  <data name="Menu.Edit.Undo" xml:space="preserve">
+    <value>Hoàn tác</value>
+  </data>
+  <data name="Menu.File" xml:space="preserve">
+    <value>Tệp</value>
+  </data>
+  <data name="Menu.File.Close" xml:space="preserve">
+    <value>Đóng tài liệu hiện tại</value>
+  </data>
+  <data name="Menu.File.Exit" xml:space="preserve">
+    <value>Chỉnh sửa</value>
+  </data>
+  <data name="Menu.File.Open" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="Menu.File.Save" xml:space="preserve">
+    <value>Lưu tài liệu hiện tại</value>
+  </data>
+  <data name="Menu.File.SaveAll" xml:space="preserve">
+    <value>Lưu tất cả tài liệu</value>
+  </data>
+  <data name="Menu.File.SaveAs" xml:space="preserve">
+    <value>Lưu dưới dạng...</value>
+  </data>
+  <data name="Menu.File.SaveAs.ToolTip" xml:space="preserve">
+    <value>Lưu tài liệu hiện tại với tên khác</value>
+  </data>
+  <data name="Menu.FIle.SaveCopy" xml:space="preserve">
+    <value>Lưu thành bản sao...</value>
+  </data>
+  <data name="Menu.File.SaveCopy.ToolTip" xml:space="preserve">
+    <value>Lưu một bản sao hoàn toàn riêng biệt của tài liệu hiện tại</value>
+  </data>
+  <data name="Menu.File.Settings" xml:space="preserve">
+    <value>Cài đặt...</value>
+  </data>
+  <data name="Menu.Help" xml:space="preserve">
+    <value>Trợ giúp</value>
+  </data>
+  <data name="Menu.Help.About" xml:space="preserve">
+    <value>Thông tin về</value>
+  </data>
+  <data name="Menu.Help.UsefulLinks" xml:space="preserve">
+    <value>Liên kết hữu ích</value>
+  </data>
+  <data name="Menu.Insert" xml:space="preserve">
+    <value>Chèn</value>
+  </data>
+  <data name="Menu.Insert.Icons" xml:space="preserve">
+    <value>Biểu tượng...</value>
+  </data>
+  <data name="Menu.Insert.Office2007" xml:space="preserve">
+    <value>Tùy chỉnh Office 2007 UI Part</value>
+  </data>
+  <data name="Menu.Insert.Office2010" xml:space="preserve">
+    <value>Tùy chỉnh Office 2010+ UI Part</value>
+  </data>
+  <data name="Menu.Insert.Sample" xml:space="preserve">
+    <value>Mẫu XML</value>
+  </data>
+  <data name="Menu.View" xml:space="preserve">
+    <value>Xem</value>
+  </data>
+  <data name="Menu.View.FoldAll" xml:space="preserve">
+    <value>Thu hẹp Tất cả</value>
+  </data>
+  <data name="Menu.View.FoldCurrent" xml:space="preserve">
+    <value>Thu hẹp Mức Hiện Tại</value>
+  </data>
+  <data name="Menu.View.FoldLevel" xml:space="preserve">
+    <value>Mức Thu hẹp</value>
+    <comment>Tiêu đề menu để Thu hẹp một cấp độ cụ thể</comment>
+  </data>
+  <data name="Menu.View.UnfoldAll" xml:space="preserve">
+    <value>Mở rộng tất cả</value>
+  </data>
+  <data name="Menu.View.UnfoldCurrent" xml:space="preserve">
+    <value>Mở rộng mức hiện tại</value>
+  </data>
+  <data name="Menu.View.UnfoldLevel" xml:space="preserve">
+    <value>Mức Mở rộng</value>
+    <comment>Tiêu đề menu để mở ra một cấp độ cụ thể</comment>
+  </data>
+  <data name="Message.AlreadyOpen.Text" xml:space="preserve">
+    <value>Tài liệu '{0}' đã mở. Việc mở tài liệu nhiều lần là nguy hiểm và có thể dẫn đến mất dữ liệu, trừ khi bạn lưu tài liệu đó với tên khác ngay lập tức.
+Bạn có hoàn toàn chắc chắn muốn mở lại tài liệu này không?</value>
+  </data>
+  <data name="Message.AlreadyOpen.Title" xml:space="preserve">
+    <value>Tài liệu đã mở</value>
+  </data>
+  <data name="Message.CallbackError.Title" xml:space="preserve">
+    <value>Lỗi khi tạo lệnh gọi lại</value>
+  </data>
+  <data name="Message.ChangeIdError.Title" xml:space="preserve">
+    <value>Lỗi khi thay đổi ID biểu tượng</value>
+  </data>
+  <data name="Message.CloseUnsavedDoc.Text" xml:space="preserve">
+    <value>Tệp {0} có những thay đổi chưa lưu. Bạn có muốn lưu chúng trước khi đóng không?</value>
+    <comment>{0} là chỗ giữ chỗ cho tên tệp</comment>
+  </data>
+  <data name="Message.CloseUnsavedDoc.Title" xml:space="preserve">
+    <value>Thay đổi chưa lưu</value>
+  </data>
+  <data name="Message.IconExists.Text" xml:space="preserve">
+    <value>Tệp UI tùy chỉnh này đã có biểu tượng có id là {0}. Bạn có muốn chèn biểu tượng mới có id là {1} không?</value>
+  </data>
+  <data name="Message.IconExists.Title" xml:space="preserve">
+    <value>Biểu tượng đã tồn tại</value>
+  </data>
+  <data name="Message.InsertSample.Text" xml:space="preserve">
+    <value>Thao tác này sẽ chèn mã XML mẫu vào vị trí con trỏ hiện tại. Bạn có chắc chắn muốn tiếp tục không?</value>
+  </data>
+  <data name="Message.InsertSample.Title" xml:space="preserve">
+    <value>Chèn mẫu XML</value>
+  </data>
+  <data name="Message.InsertSampleError.Title" xml:space="preserve">
+    <value>Lỗi khi chèn mẫu XML</value>
+  </data>
+  <data name="Message.NewVersion.Text" xml:space="preserve">
+    <value>Phiên bản phát hành {0} hiện đã có sẵn. Bạn có muốn tải xuống không?</value>
+  </data>
+  <data name="Message.NewVersion.Title" xml:space="preserve">
+    <value>Phiên bản mới hơn có sẵn</value>
+  </data>
+  <data name="Message.NoCallbacks.Text" xml:space="preserve">
+    <value>Không có cuộc gọi lại nào được tạo ra.</value>
+  </data>
+  <data name="Message.NoCallbacks.Title" xml:space="preserve">
+    <value>Tạo cuộc gọi lại</value>
+  </data>
+  <data name="Message.OpenError.Title" xml:space="preserve">
+    <value>Lỗi khi mở tài liệu Office</value>
+  </data>
+  <data name="Message.RemoveIcon.Text" xml:space="preserve">
+    <value>Không thể hoàn tác hành động này. Bạn có chắc chắn muốn tiếp tục không?</value>
+  </data>
+  <data name="Message.RemoveIcon.Title" xml:space="preserve">
+    <value>Xóa biểu tượng</value>
+  </data>
+  <data name="Message.RemovePart.Text" xml:space="preserve">
+    <value>Không thể hoàn tác hành động này. Bạn có chắc chắn muốn tiếp tục không?</value>
+  </data>
+  <data name="Message.RemovePart.Title" xml:space="preserve">
+    <value>Xóa phần XML</value>
+  </data>
+  <data name="Message.SaveError.Title" xml:space="preserve">
+    <value>Lỗi khi lưu tài liệu Office</value>
+  </data>
+  <data name="Message.ValidXml.Text" xml:space="preserve">
+    <value>XML giao diện người dùng tùy chỉnh được định dạng tốt.</value>
+  </data>
+  <data name="Message.ValidXml.Title" xml:space="preserve">
+    <value>XML hợp lệ</value>
+  </data>
+  <data name="Message.VersionCopy.Text" xml:space="preserve">
+    <value>Thông tin phiên bản đã được sao chép vào bảng tạm.</value>
+  </data>
+  <data name="Message.VersionCopy.Title" xml:space="preserve">
+    <value>Thông tin phiên bản đã được sao chép</value>
+  </data>
+  <data name="OpenDialog.Document.Title" xml:space="preserve">
+    <value>Mở tài liệu OOXML</value>
+  </data>
+  <data name="OpenDialog.Icons.Title" xml:space="preserve">
+    <value>Chèn biểu tượng tùy chỉnh</value>
+  </data>
+  <data name="SaveDialog.SaveAs.Title" xml:space="preserve">
+    <value>Lưu tài liệu OOXML</value>
+  </data>
+  <data name="Settings.Accept" xml:space="preserve">
+    <value>Chấp nhận</value>
+  </data>
+  <data name="Settings.Apply" xml:space="preserve">
+    <value>Áp dụng</value>
+  </data>
+  <data name="Settings.Colors" xml:space="preserve">
+    <value>Chỉnh sửa màu sắc</value>
+  </data>
+  <data name="Settings.Colors.Attribute" xml:space="preserve">
+    <value>Thuộc tính</value>
+  </data>
+  <data name="Settings.Colors.Background" xml:space="preserve">
+    <value>Nền</value>
+  </data>
+  <data name="Settings.Colors.Comment" xml:space="preserve">
+    <value>Bình luận</value>
+  </data>
+  <data name="Settings.Colors.Default" xml:space="preserve">
+    <value>Văn bản thông thường</value>
+  </data>
+  <data name="Settings.Colors.String" xml:space="preserve">
+    <value>Chuỗi</value>
+  </data>
+  <data name="Settings.Colors.Tag" xml:space="preserve">
+    <value>Nhãn</value>
+  </data>
+  <data name="Settings.Editor" xml:space="preserve">
+    <value>Các thiết lập biên tập khác</value>
+  </data>
+  <data name="Settings.Editor.AutoIndent" xml:space="preserve">
+    <value>Tự động thụt lề dòng mới</value>
+  </data>
+  <data name="Settings.Editor.FontSize" xml:space="preserve">
+    <value>Kích thước phông chữ</value>
+  </data>
+  <data name="Settings.Editor.TabWidth" xml:space="preserve">
+    <value>Chiều rộng tab</value>
+  </data>
+  <data name="Settings.Editor.WrapMode" xml:space="preserve">
+    <value>Chế độ quấn</value>
+  </data>
+  <data name="Settings.FileAssociations" xml:space="preserve">
+    <value>Liên kết tập tin</value>
+  </data>
+  <data name="Settings.FileAssociations.CheckAll" xml:space="preserve">
+    <value>Chọn tất cả</value>
+  </data>
+  <data name="Settings.FileAssociations.ToolTip" xml:space="preserve">
+    <value>Một mục menu ngữ cảnh sẽ xuất hiện trong Windows Explorer để chỉnh sửa các tệp này trực tiếp bằng công cụ</value>
+  </data>
+  <data name="Settings.FileAssociations.UncheckAll" xml:space="preserve">
+    <value>Bỏ chọn tất cả</value>
+  </data>
+  <data name="Settings.Misc" xml:space="preserve">
+    <value>Lặt vặt</value>
+  </data>
+  <data name="Settings.Misc.DefaultTemplates" xml:space="preserve">
+    <value>Hiển thị các mẫu XML mặc định trong menu Chèn</value>
+  </data>
+  <data name="Settings.Misc.ExtraTemplates" xml:space="preserve">
+    <value>Các mẫu XML bổ sung để tải:</value>
+  </data>
+  <data name="Settings.Misc.ExtraTemplates.ToolTip" xml:space="preserve">
+    <value>Một đường dẫn trên mỗi dòng. Đường dẫn có thể là tệp XML hoặc thư mục chứa các tệp đó. Chúng cũng có thể liên quan đến thư mục của công cụ</value>
+  </data>
+  <data name="Settings.Misc.Language" xml:space="preserve">
+    <value>Ngôn ngữ</value>
+  </data>
+  <data name="Settings.Misc.PreserveAttributes" xml:space="preserve">
+    <value>Giữ nguyên thuộc tính tệp khi lưu một tài liệu đã tồn tại</value>
+  </data>
+  <data name="Settings.Misc.PreserveAttributes.ToolTip" xml:space="preserve">
+    <value>Nếu được chọn, các tệp chỉ đọc sẽ tiếp tục ở chế độ chỉ đọc sau khi lưu chúng chẳng hạn</value>
+  </data>
+  <data name="Settings.ResetDefaults" xml:space="preserve">
+    <value>Đặt lại mặc định</value>
+  </data>
+  <data name="Settings.Title" xml:space="preserve">
+    <value>Cài đặt</value>
+  </data>
+  <data name="ToolBar.Callbacks" xml:space="preserve">
+    <value>Generate Callbacks</value>
+  </data>
+  <data name="ToolBar.Callbacks.ToolTip" xml:space="preserve">
+    <value>Tạo lệnh gọi lại cho tệp XML hiện tại</value>
+  </data>
+  <data name="ToolBar.InsertIcons" xml:space="preserve">
+    <value>Chèn biểu tượng</value>
+  </data>
+  <data name="ToolBar.InsertIcons.ToolTip" xml:space="preserve">
+    <value>Chèn biểu tượng</value>
+  </data>
+  <data name="ToolBar.Open" xml:space="preserve">
+    <value>Mở</value>
+  </data>
+  <data name="ToolBar.Open.ToolTip" xml:space="preserve">
+    <value>Mở một tài liệu Office</value>
+  </data>
+  <data name="ToolBar.ReloadOnSave" xml:space="preserve">
+    <value>Tải lại khi Lưu</value>
+  </data>
+  <data name="ToolBar.ReloadOnSave.ToolTip" xml:space="preserve">
+    <value>Để đảm bảo bạn không xóa những thay đổi được thực hiện bên ngoài, bạn có thể tải lại tài liệu ngay trước khi chúng được lưu</value>
+  </data>
+  <data name="ToolBar.Save" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="ToolBar.Save.ToolTip" xml:space="preserve">
+    <value>Lưu tài liệu Office hiện tại</value>
+  </data>
+  <data name="ToolBar.Settings" xml:space="preserve">
+    <value>Cài đặt</value>
+  </data>
+  <data name="ToolBar.Settings.ToolTip" xml:space="preserve">
+    <value>Xem cài đặt trình chỉnh sửa</value>
+  </data>
+  <data name="ToolBar.ShowWhitespaces.ToolTip" xml:space="preserve">
+    <value>Hiển thị các ký tự khoảng trắng, tab và kết thúc dòng trong trình soạn thảo</value>
+  </data>
+  <data name="ToolBar.ToggleComment.ToolTip" xml:space="preserve">
+    <value>Bình luận / bỏ bình luận các dòng hiện đang được chọn</value>
+  </data>
+  <data name="ToolBar.Validate" xml:space="preserve">
+    <value>Xác thực</value>
+  </data>
+  <data name="ToolBar.Validate.ToolTip" xml:space="preserve">
+    <value>Kiểm tra xem tệp XML hiện tại có tuân thủ theo lược đồ tương ứng của nó không</value>
+  </data>
+  <data name="ToolBar.VersionAvailable" xml:space="preserve">
+    <value>v{0} Có sẵn!</value>
+    <comment>{0} là chỗ giữ chỗ cho phiên bản, ví dụ: "1.2.3"</comment>
+  </data>
+  <data name="Validation.MutuallyExclusive" xml:space="preserve">
+    <value>Bạn chỉ có thể xác định một trong các thuộc tính sau trong một phần tử: {0}</value>
+  </data>
+  <data name="Validation.WrongNamespace" xml:space="preserve">
+    <value>Không gian tên không xác định "{0}". Không gian tên XML UI tùy chỉnh phải là "{1}"</value>
+  </data>
+  <data name="About.Translators" xml:space="preserve">
+    <value>Dịch:</value>
+  </data>
+  <data name="Message.CorruptedSettings.Text" xml:space="preserve">
+    <value>TTệp cài đặt người dùng ở vị trí sau bị hỏng và không thể xóa:
+
+{0}
+
+Vui lòng xóa tệp này theo cách thủ công và khởi động lại ứng dụng. Vị trí thư mục của tệp đã được sao chép vào bảng tạm.</value>
+  </data>
+  <data name="Message.CorruptedSettings.Title" xml:space="preserve">
+    <value>Cài đặt bị hỏng</value>
+  </data>
+  <data name="Message.MissingRedistributable.Text" xml:space="preserve">
+    <value>Công cụ này cần cài đặt ít nhất {0} Microsoft Visual C++ Redistributable ({1}), nhưng không thể phát hiện ra nó trong máy của bạn. Điều này rất có thể dẫn đến sự cố khi mở các tab trình chỉnh sửa.
+
+Bạn có muốn tải xuống gói redistributable mới nhất ngay bây giờ không?</value>
+    <comment>{0}là chỗ giữ chỗ cho phiên bản, ví dụ: "v14.16". {1} là chỗ giữ chỗ cho kiến ​​trúc, ví dụ: "arm64" / "x64"</comment>
+  </data>
+  <data name="Message.MissingRedistributable.Title" xml:space="preserve">
+    <value>Thiếu VC++ Redistributable</value>
+  </data>
+</root>
